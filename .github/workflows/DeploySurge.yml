@@ -46,4 +46,4 @@ jobs:
 
       # Deployment to Surge
       - name: Execute Deployment to Surge
-        run: surge ./build http://private-covid19.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build http://privatecovid19.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
